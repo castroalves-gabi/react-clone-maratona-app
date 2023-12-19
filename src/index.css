@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;600;700&display=swap');
+
+body {
+    background: url('https://media.giphy.com/media/UYBDCJjwOd9Re/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    animation: moveBackground 80s linear infinite;
+    color: white;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #1f1e24;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(78, 69, 69); 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(136, 121, 121); 
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 50% 0;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
