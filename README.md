@@ -1,4 +1,4 @@
-# Maratona App Clone - Website for tracking book readings
+# Maratona App Clone with ReactJS- Website for tracking book readings
 Clone using React.
 
 Current stage: implementing Google Books API
